@@ -279,3 +279,10 @@
     margin-bottom: 27px;
     width: 110px;
 }
+
+
+@media (max-width: 600px) {
+    .laco-amarelow {
+        display: none;
+    }
+}
