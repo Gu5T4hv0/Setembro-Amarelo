@@ -285,4 +285,8 @@
     .laco-amarelow {
         display: none;
     }
+    .yellow-block {
+        position: relative;
+        width: 392px;
+    }
 }
