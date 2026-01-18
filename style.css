@@ -296,7 +296,7 @@
     }
     .yellow-block {
         position: relative;
-        width: 375px;
+        width: 100%;
         height: 527px;
         border-radius: 0px;
     }
@@ -355,7 +355,7 @@
         border-radius: 0px;
         background-image: url(./assets/white-paper-texture.svg);
         margin: 0;
-        width: 375px;
+        width: 100%;
         height: 100%;
         z-index: 60;
         pointer-events: none;
@@ -505,11 +505,12 @@
         background-image: url(./assets/KV2.svg);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 100vw;
-        height: 100vh;
+        width: 100%;
+        height: 100%;
         display: flex;
         justify-content: center;
         align-items: flex-end;
+        position: absolute;
     }
     .bloco5 img{
         margin-bottom: 32px;
